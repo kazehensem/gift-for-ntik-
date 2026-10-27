@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Manis Ntik ♡</title>
+
+  <style>
+    body {
+      background: #ffe6ef;
+      color: #a84668;
+      font-family: Georgia, serif;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 25px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 5px 20px #e7a0b8;
+    }
+
+    h1 {
+      color: #d85e89;
+    }
+
+    button {
+      background: #e8799d;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 20px;
+      cursor: pointer;
+      margin: 10px;
+    }
+
+    #surat, #kejutan {
+      display: none;
+      line-height: 1.8;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>For My dd ntik ♡</h1>
+
+    <p>A little gift from abang ganteng, just for you.</p>
+
+    <button onclick="bukaSurat()">
+      Open Your Letter 💌
+    </button>
+
+    <div id="surat">
+      <h2>Di baca ya cantik</h2>
+
+      <p>
+        Halo dd maniss, selamat malam ★
+        di sini aku mau berterimakasih banyak sama kamu,
+        karena selalu support aku dalam kondisi apapun.
+        i'm so lucky to have you sayang, aku sangat cintai
+        kamu, selalu setiap hari. maaf kalau aku belum bisa
+        jadi yg terbaik iya, belum bisa jadi yg kamu mau,
+        aku bakal selalu berusaha supaya kamu happy setiap
+        hari sayangg. i love you so much ♥
+    
+      </p>
+
+      <p>With love, abang ♡</p>
+
+      <button onclick="bukaKejutan()">
+        Open Your Surprise 🎁
+      </button>
+    </div>
+
+    <div id="kejutan">
+      <h2>Surprise, Maniss! 💗</h2>
+      <p>hey sahabat minions, sumpah aku cintai kamu,
+        kamu orang pertama yg bikin aku jatuh cinta
+        sekaligus merasa di cintai setulus ini. tolong
+        cintai dan sayangi aku selalu ya sayangg.</p>
+      <p>Abang sayang maniss ♡</p>
+    </div>
+  </div>
+
+  <script>
+    function bukaSurat() {
+      document.getElementById("surat").style.display = "block";
+    }
+
+    function bukaKejutan() {
+      document.getElementById("kejutan").style.display = "block";
+    }
+  </script>
+</body>
+</html>
